@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: Allayarova
+      changes:
+        - sqlFile:
+            path: DDL/10062025__init.sql
+            relativeToChangelogFile: true
